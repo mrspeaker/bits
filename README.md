@@ -10,7 +10,10 @@ connections by jquery events
 
 ## Running
 
-  > jspm init
+Using JSPM to get all the ES2015 goodness. 
 
-  > serve it (http-server)
+  > jspm install
 
+Then serve it up via your favourite web server (whatever that may be)...
+
+  > http-server
