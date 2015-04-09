@@ -27,9 +27,11 @@ React.render(
     <Delay name='delay4' inA='delay3' />
     <Delay name='delay5' inA='delay4' />
     <Not name='not2' inA='delay5' />
-    <LED name='led1' inA='not2' />
-    <LED name='led1' inA='not2' />
-    <LED name='led1' inA='not2' />
+    <LED inA='delay1' />
+    <LED inA='delay2' />
+    <LED inA='delay3' />
+    <LED inA='delay4' />
+    <LED inA='delay5' />
   </div>,
   document.querySelector('#app')
 );
