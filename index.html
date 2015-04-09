@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>bits</title>
+  <style>
+    body {
+      font-family: monospace;
+    }
+
+    .LED {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border:1px solid #000;
+      border-radius: 8px;
+      margin: 1px;
+    }
+    .LED.lit {
+      background-color: #FF4B5C;
+    }
+    .LED.unlit {
+      background-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import('src/main');
+  </script>
+</body>
+</html>
